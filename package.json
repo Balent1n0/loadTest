@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test1": "k6 run src/loadTest.js"
+  },
   "private": true,
   "devDependencies": {
     "@types/k6": "^0.54.1"
