@@ -1,6 +1,6 @@
 import {SharedArray} from 'k6/data';
 
-export const url = 'https://reqres.in/api';
+export const url = 'https://reqres.in/api'; // TODO вынести в ENV-конфиг
 
 export function randomizer(array) {
     return [Math.floor(Math.random() * array.length)];
@@ -13,4 +13,4 @@ export const loginData = new SharedArray('User Login', () => {
     return JSON.parse(open('./fixtures/loginData.json')).loginData;
 });
 
-export const params = {headers: {'Content-Type': 'application/json',},};
+export const params = {headers: {'Content-Type': 'application/json'}};
