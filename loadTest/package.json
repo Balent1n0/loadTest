@@ -1,0 +1,14 @@
+{
+  "name": "loadTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@types/k6": "^0.54.1"
+  },
+  "dependencies": {
+    "k6": "^0.0.0"
+  }
+}
